@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955556312333",
+    "firebase_url": "https://photo-locator-8d68f.firebaseio.com",
+    "project_id": "photo-locator-8d68f",
+    "storage_bucket": "photo-locator-8d68f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955556312333:android:e62636ce34a6ea66786c44",
+        "android_client_info": {
+          "package_name": "com.apps.photolocator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955556312333-ittjl40vr7u80vtuh2tqpnpnde3bmu5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_UU4GggOjkDxOzRxhu2l0q2P13tDGYfQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955556312333-ittjl40vr7u80vtuh2tqpnpnde3bmu5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
