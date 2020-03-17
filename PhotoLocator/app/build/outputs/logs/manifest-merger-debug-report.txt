@@ -13,6 +13,7 @@ MERGED from [com.google.firebase:firebase-auth:19.2.0] C:\Users\adame\.gradle\ca
 MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\beac89b18f1ab2a957a716afacc28a4d\jetified-firebase-storage-19.1.1\AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\58edd6195b06772a93c30dd3011542f9\jetified-firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\36396b1fbdb1103bb32efd2dde513e3d\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f029e5fde7f0c8eec949bd3577990a9f\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:17:1-36:12
@@ -43,6 +44,7 @@ MERGED from [androidx.customview:customview:1.0.0] C:\Users\adame\.gradle\caches
 MERGED from [androidx.core:core:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\509b9013c19d2fd80c30f8ef574e433a\core-1.2.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0a265440987cc4e75053c9445cd2e39a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\64ca07abbcbc78186ca1b999f5a5335a\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\ace58725a593ebc3d8ac9a955443d5c1\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e4bd9b193777687523303943a4029054\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\a0ace06f047d4842a6f5373e82da3162\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\aa1d5930a25664aa7646c6cfc994bd91\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -91,6 +93,8 @@ MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradl
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\58edd6195b06772a93c30dd3011542f9\jetified-firebase-database-19.2.1\AndroidManifest.xml:28:5-36:19
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f029e5fde7f0c8eec949bd3577990a9f\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:26:5-34:19
@@ -195,6 +199,8 @@ MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradl
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\58edd6195b06772a93c30dd3011542f9\jetified-firebase-database-19.2.1\AndroidManifest.xml:19:5-21:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\36396b1fbdb1103bb32efd2dde513e3d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\36396b1fbdb1103bb32efd2dde513e3d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:20:5-44
@@ -255,6 +261,8 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0a265440987cc4e75053c9445cd2e39a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\64ca07abbcbc78186ca1b999f5a5335a\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\64ca07abbcbc78186ca1b999f5a5335a\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\ace58725a593ebc3d8ac9a955443d5c1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\ace58725a593ebc3d8ac9a955443d5c1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e4bd9b193777687523303943a4029054\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e4bd9b193777687523303943a4029054\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\a0ace06f047d4842a6f5373e82da3162\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
@@ -389,6 +397,14 @@ ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle
 		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\58edd6195b06772a93c30dd3011542f9\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\58edd6195b06772a93c30dd3011542f9\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f029e5fde7f0c8eec949bd3577990a9f\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:24:5-68
