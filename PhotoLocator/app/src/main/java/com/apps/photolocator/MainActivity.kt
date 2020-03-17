@@ -7,12 +7,18 @@ import android.view.Menu
 import android.view.MenuItem
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        button.setOnClickListener{
+            startActivity(Intent(this, MapsActivity::class.java))
+        }
+
         verifyUserIsLoggedIn()
     }
     private fun verifyUserIsLoggedIn(){
