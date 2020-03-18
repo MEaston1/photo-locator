@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\adame\\.gradle\\caches\\transforms-2\\files-2.1\\cffcb14bc50954fa646513b4be989c6b\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\matth\\.gradle\\caches\\transforms-2\\files-2.1\\cffcb14bc50954fa646513b4be989c6b\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

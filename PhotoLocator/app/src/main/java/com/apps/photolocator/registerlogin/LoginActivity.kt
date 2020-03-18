@@ -4,9 +4,9 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.apps.photolocator.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.apps.photolocator.R
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
@@ -36,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
                     if (!it.isSuccessful) return@addOnCompleteListener
                     Log.d("Login", "Successfully logged in: ${it.result?.user?.uid}")
 
-                    val intent = Intent(this, MainActivity::class.java)
+                    val intent = Intent(this, PhotoRecyclerActivity::class.java)
                     intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                     startActivity(intent)
                 }

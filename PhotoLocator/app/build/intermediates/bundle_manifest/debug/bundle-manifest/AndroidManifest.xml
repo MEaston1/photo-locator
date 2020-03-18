@@ -52,8 +52,12 @@
 
         <activity
             android:name="com.apps.photolocator.MapsActivity"
-            android:label="@string/title_activity_maps" />
-        <activity android:name="com.apps.photolocator.MainActivity" >
+            android:label="@string/title_activity_maps" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".photo.PhotoRecyclerActivity" />
+        </activity>
+        <activity android:name="com.apps.photolocator.photo.PhotoRecyclerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
