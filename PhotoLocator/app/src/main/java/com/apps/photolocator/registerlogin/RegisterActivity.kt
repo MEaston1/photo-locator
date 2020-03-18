@@ -7,11 +7,11 @@ import android.os.Bundle
 import android.provider.MediaStore
 import android.util.Log
 import android.widget.Toast
-import com.apps.photolocator.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
 import com.apps.photolocator.R
+import com.apps.photolocator.photo.PhotoDetailsActivity
 import kotlinx.android.synthetic.main.activity_register.*
 import java.util.*
 
@@ -121,7 +121,7 @@ class RegisterActivity : AppCompatActivity() {
             .addOnSuccessListener {
                 Log.d(TAG, "Finally we saved the user to Firebase Database")
 
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, PhotoDetailsActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
             }
             .addOnFailureListener {

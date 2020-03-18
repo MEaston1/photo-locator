@@ -42,6 +42,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.apps.photolocator.photo.PhotoDetailsActivity" />
+        <activity android:name="com.apps.photolocator.photo.PatientRecyclerActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -70,6 +72,11 @@
                 android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.apps.photolocator.com.squareup.picasso"
+            android:exported="false" />
 
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
