@@ -1,22 +1,23 @@
 package com.apps.photolocator
 
-import androidx.appcompat.app.AppCompatActivity
+import android.R.raw
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import com.apps.photolocator.models.Location
-
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+
+class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
 
@@ -29,7 +30,11 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
     lateinit var ref: DatabaseReference
     lateinit var saveToRef: DatabaseReference
 
+    var useDarkMode = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        useDarkMode = darkMode()
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
 
@@ -77,11 +82,15 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
      */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-
+        if (useDarkMode){
+            mMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.map_dark_mode))
+        }
+        
     }
     private fun updateMap() {
 
         val coord = LatLng(long.toDouble(), lat.toDouble())
+
         mMap.addMarker(MarkerOptions().position(coord).title("Marker at " + nameText.text))
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(coord, 16.0f))
     }

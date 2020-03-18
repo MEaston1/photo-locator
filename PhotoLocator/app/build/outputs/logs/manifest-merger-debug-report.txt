@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
 MERGED from [androidx.mediarouter:mediarouter:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\fd93beec4424d2e5b7afbaa36c16a718\mediarouter-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cffcb14bc50954fa646513b4be989c6b\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cbfd1da392fc44c7c6ee9702ee1d6544\jetified-core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
@@ -65,20 +65,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\adame\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\308c366dec3536d2c325d08e36113e5e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b7f5752aa0acc6fff842c787e096bc60\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f0a023290e2c6b637251f36ff536ead9\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:11-69
@@ -87,7 +87,7 @@ ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-l
 	android:name
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:12:5-50:19
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:12:5-51:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dc5653df51271f52f93d2006d9a5e208\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dc5653df51271f52f93d2006d9a5e208\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\120a2803b9658a349f5d78aac0aa3bfb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
@@ -186,6 +186,10 @@ activity#com.apps.photolocator.registerlogin.RegisterActivity
 ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:43:9-49:20
 	android:name
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:43:19-65
+activity#com.apps.photolocator.SettingsActivity
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:50:9-54
+	android:name
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:50:19-51
 uses-sdk
 INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml

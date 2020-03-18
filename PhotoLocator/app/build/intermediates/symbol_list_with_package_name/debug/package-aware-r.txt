@@ -484,6 +484,9 @@ color common_google_signin_btn_text_light_disabled
 color common_google_signin_btn_text_light_focused
 color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
+color darkColorAccent
+color darkColorPrimary
+color darkColorPrimaryDark
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -1108,7 +1111,6 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
 id buttonPanel
 id cancel_action
 id center
@@ -1128,6 +1130,7 @@ id countryText
 id custom
 id customPanel
 id dark
+id darkThemeSwitch
 id decor_content_parent
 id default_activity_button
 id dialog_button
@@ -1169,6 +1172,7 @@ id list_item
 id locationImageView
 id login_button_login
 id map
+id mapButton
 id media_actions
 id menu_sign_out
 id message
@@ -1245,6 +1249,7 @@ id progress_circular
 id progress_horizontal
 id radio
 id register_button_register
+id returnButton
 id right
 id right_icon
 id right_side
@@ -1266,6 +1271,7 @@ id search_voice_btn
 id select_dialog_listview
 id select_photo_button
 id select_photo_imageview_register
+id settingsButton
 id shortcut
 id showCustom
 id showHome
@@ -1398,10 +1404,12 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout settings_activity
 layout support_simple_spinner_dropdown_item
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw map_dark_mode
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -1483,6 +1491,7 @@ string mr_user_route_category_name
 string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
+string style_json
 string title_activity_maps
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -1490,6 +1499,7 @@ style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style AppTheme
+style AppTheme_Dark
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog

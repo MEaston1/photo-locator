@@ -15,8 +15,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener{
+        mapButton.setOnClickListener{
             startActivity(Intent(this, MapsActivity::class.java))
+        }
+        settingsButton.setOnClickListener{
+            startActivity(Intent(this, SettingsActivity::class.java))
         }
 
         verifyUserIsLoggedIn()
