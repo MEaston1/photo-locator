@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "955556312333-cc8cdg9odj8scouab0fbfcrquecujhu5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.photolocator",
+            "certificate_hash": "d949433c0a2323fdcd0aba3a98d292663eef68f1"
+          }
+        },
+        {
           "client_id": "955556312333-ittjl40vr7u80vtuh2tqpnpnde3bmu5b.apps.googleusercontent.com",
           "client_type": 3
         }
