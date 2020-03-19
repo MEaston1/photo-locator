@@ -1471,6 +1471,7 @@ drawable googleg_standard_color_18
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
 drawable ic_backspace
+drawable ic_bookmark_black_24dp
 drawable ic_calendar_black_24dp
 drawable ic_camera
 drawable ic_checked_checkbox
@@ -1878,6 +1879,7 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView_new_photo
 id info
 id invisible
 id italic
@@ -1978,8 +1980,9 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id nameText
+id nav_about
 id nav_camera
-id nav_images
+id nav_locations
 id nav_maps
 id nav_settings
 id nav_signout
@@ -2009,6 +2012,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerview_newphoto
 id register_button_register
 id returnText
 id right
@@ -2183,6 +2187,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_maps
+layout activity_new_photo
 layout activity_register
 layout content_main
 layout custom_dialog
@@ -2277,6 +2282,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_row_new_photo
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

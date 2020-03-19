@@ -3,7 +3,7 @@
 
     <group>
         <item
-            android:id="@+id/nav_images"
+            android:id="@+id/nav_locations"
             android:icon="@drawable/ic_images"
             android:title="Images" />
         <item
@@ -27,6 +27,14 @@
                 android:id="@+id/nav_signout"
                 android:icon="@drawable/ic_signout"
                 android:title="Sign Out" />
+        </menu>
+    </item>
+    <item android:title="App Information">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_bookmark_black_24dp"
+                android:title="About"/>
         </menu>
     </item>
 </menu>

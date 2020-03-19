@@ -11,6 +11,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
@@ -77,7 +78,8 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.nav_images -> {
+            R.id.nav_locations -> {
+                startActivity(Intent(this, PhotoRecyclerActivity::class.java))
             }
             R.id.nav_maps -> {
                     startActivity(Intent(this, MapsActivity::class.java))
@@ -94,6 +96,9 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 val intent = Intent(this, RegisterActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)
+            }
+            R.id.nav_about -> {
+                startActivity(Intent(this, AboutActivity::class.java))
             }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
