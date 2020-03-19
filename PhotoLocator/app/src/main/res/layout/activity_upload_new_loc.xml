@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadNewLocActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/returnText"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:text="Return"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/addImageView"
+        android:layout_width="244dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:srcCompat="@drawable/ic_add_a_photo_black_24dp" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/addImageView"
+        app:layout_constraintStart_toStartOf="@+id/addImageView"
+        app:layout_constraintTop_toBottomOf="@+id/addImageView" />
+
+    <EditText
+        android:id="@+id/countryText"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Country"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/addImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addImageView"
+        app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+    <EditText
+        android:id="@+id/descriptionText"
+        android:layout_width="244dp"
+        android:layout_height="0dp"
+        android:gravity="bottom|center"
+        android:hint="Enter Description"
+        android:inputType="textMultiLine"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/uploadButton"
+        app:layout_constraintEnd_toEndOf="@+id/addImageView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addImageView"
+        app:layout_constraintTop_toBottomOf="@+id/latText" />
+
+    <EditText
+        android:id="@+id/latText"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Lat"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/addImageView"
+        app:layout_constraintTop_toBottomOf="@+id/countryText" />
+
+    <EditText
+        android:id="@+id/longText"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter Long"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/addImageView"
+        app:layout_constraintTop_toBottomOf="@+id/countryText" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/addImageView"
+        app:layout_constraintStart_toStartOf="@+id/addImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
