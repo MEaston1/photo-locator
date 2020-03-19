@@ -22,11 +22,11 @@
 16-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:10:22-78
 17
 18    <uses-feature
-18-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:12:5-14:35
+18-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:13:5-15:35
 19        android:name="android.hardware.camera"
-19-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:13:9-47
+19-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:14:9-47
 20        android:required="true" />
-20-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:14:9-32
+20-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:15:9-32
 21
 22    <!-- Include required permissions for Google Maps API to run. -->
 23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -54,26 +54,26 @@
 32-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\69bcc25cfca61449f40a9e640e746ece\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
 33
 34    <application
-34-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:16:5-53:19
+34-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:17:5-55:19
 35        android:allowBackup="true"
-35-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:17:9-35
+35-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:18:9-35
 36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 36-->[androidx.core:core:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\509b9013c19d2fd80c30f8ef574e433a\core-1.2.0\AndroidManifest.xml:24:18-86
 37        android:debuggable="true"
 38        android:icon="@mipmap/ic_launcher"
-38-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:18:9-43
+38-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:19:9-43
 39        android:label="@string/app_name"
-39-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:19:9-41
+39-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:20:9-41
 40        android:roundIcon="@mipmap/ic_launcher_round"
-40-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:20:9-54
+40-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:21:9-54
 41        android:supportsRtl="true"
-41-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:21:9-35
+41-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:22:9-35
 42        android:testOnly="true"
 43        android:theme="@style/AppTheme" >
-43-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:22:9-40
+43-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:23:9-40
 44        <activity android:name="com.apps.photolocator.UploadNewLocActivity" />
-44-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:23:9-67
-44-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:23:19-55
+44-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:25:9-58
+44-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:25:19-55
 45        <!--
 46             The API key for Google Maps-based APIs is defined as a string resource.
 47             (See the file "res/values/google_maps_api.xml").
@@ -83,49 +83,49 @@
 51             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 52        -->
 53        <meta-data
-53-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:32:9-34:55
+53-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:34:9-36:55
 54            android:name="com.google.android.geo.API_KEY"
-54-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:33:13-58
+54-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:35:13-58
 55            android:value="@string/google_maps_key" />
-55-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:34:13-52
+55-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:36:13-52
 56
 57        <activity android:name="com.apps.photolocator.MainActivity" >
-57-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:36:9-42:20
-57-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:36:19-47
+57-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:38:9-44:20
+57-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:38:19-47
 58            <intent-filter>
-58-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:37:13-41:29
+58-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:39:13-43:29
 59                <action android:name="android.intent.action.MAIN" />
-59-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:38:17-69
-59-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:38:25-66
+59-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:17-69
+59-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:25-66
 60
 61                <category android:name="android.intent.category.LAUNCHER" />
-61-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:17-77
-61-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:27-74
+61-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:42:17-77
+61-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:42:27-74
 62            </intent-filter>
 63        </activity>
 64        <activity android:name="com.apps.photolocator.registerlogin.LoginActivity" />
-64-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:43:9-65
-64-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:43:19-62
+64-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:45:9-65
+64-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:45:19-62
 65        <activity android:name="com.apps.photolocator.registerlogin.RegisterActivity" >
-65-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:44:9-50:20
-65-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:44:19-65
+65-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:46:9-52:20
+65-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:46:19-65
 66            <intent-filter>
-66-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:37:13-41:29
+66-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:39:13-43:29
 67                <action android:name="android.intent.action.MAIN" />
-67-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:38:17-69
-67-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:38:25-66
+67-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:17-69
+67-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:25-66
 68
 69                <category android:name="android.intent.category.LAUNCHER" />
-69-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:17-77
-69-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:27-74
+69-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:42:17-77
+69-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:42:27-74
 70            </intent-filter>
 71        </activity>
 72        <activity android:name="com.apps.photolocator.MapsActivity" />
-72-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:51:9-50
-72-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:51:19-47
+72-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:53:9-50
+72-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:53:19-47
 73        <activity android:name="com.apps.photolocator.SettingsActivity" />
-73-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:52:9-54
-73-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:52:19-51
+73-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:54:9-54
+73-->D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:54:19-51
 74        <!-- Needs to be explicitly declared on P+ -->
 75        <uses-library
 75-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\120a2803b9658a349f5d78aac0aa3bfb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40

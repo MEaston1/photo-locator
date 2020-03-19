@@ -43,7 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/ic_add_a_photo_black_24dp" />
 
     <EditText
         android:id="@+id/nameText"
@@ -61,7 +61,6 @@
         android:id="@+id/countryText"
         android:layout_width="244dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:gravity="center"
         android:hint="Enter Country"
         android:textSize="14sp"
@@ -74,9 +73,7 @@
         android:id="@+id/descriptionText"
         android:layout_width="244dp"
         android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
-        android:gravity="center_horizontal"
+        android:gravity="bottom|center"
         android:hint="Enter Description"
         android:inputType="textMultiLine"
         android:textSize="14sp"
@@ -90,9 +87,9 @@
         android:id="@+id/latText"
         android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:gravity="center"
         android:hint="Enter Lat"
+        android:inputType="numberDecimal"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/addImageView"
         app:layout_constraintTop_toBottomOf="@+id/countryText" />
@@ -101,9 +98,9 @@
         android:id="@+id/longText"
         android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:gravity="center"
         android:hint="Enter Long"
+        android:inputType="numberDecimal"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/addImageView"
         app:layout_constraintTop_toBottomOf="@+id/countryText" />

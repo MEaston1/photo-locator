@@ -1468,6 +1468,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_add_a_photo_black_24dp
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
 drawable ic_backspace
@@ -2107,6 +2108,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id uploadButton
 id useLogo
 id username_edittext_register
 id view_offset_helper

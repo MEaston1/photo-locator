@@ -1,11 +1,13 @@
 package com.apps.photolocator
 
 import android.app.Activity
+import android.content.ContentValues
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
 import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
@@ -16,13 +18,11 @@ import com.apps.photolocator.models.Location
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
-import kotlinx.android.synthetic.main.activity_maps.*
 import kotlinx.android.synthetic.main.activity_maps.returnText
 import kotlinx.android.synthetic.main.activity_upload_new_loc.*
 import java.util.*
 
-
-class UploadNewLocActivity : AppCompatActivity() {
+class UploadNewLocActivity : BaseActivity() {
 
     lateinit var addImageView: ImageView
     lateinit var nameText: TextView
@@ -31,7 +31,9 @@ class UploadNewLocActivity : AppCompatActivity() {
     lateinit var longText: TextView
     lateinit var descriptionText: TextView
 
+    var selectedPhotoUri: Uri? = null
     override fun onCreate(savedInstanceState: Bundle?) {
+        darkMode()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_upload_new_loc)
 
@@ -47,7 +49,7 @@ class UploadNewLocActivity : AppCompatActivity() {
         }
 
         uploadButton.setOnClickListener{
-            
+            uploadImageToFirebaseStorage()
         }
 
         addImageView.setOnClickListener{
@@ -62,7 +64,7 @@ class UploadNewLocActivity : AppCompatActivity() {
         builder.setTitle("Choose your profile picture")
         builder.setItems(options, DialogInterface.OnClickListener { dialog, item ->
             if (options[item] == "Take Photo") {
-                //dispatchTakePictureIntent()
+                dispatchTakePictureIntent()
             } else if (options[item] == "Choose from Gallery") {
                 pickImageFromGallery()
 
@@ -73,25 +75,19 @@ class UploadNewLocActivity : AppCompatActivity() {
         builder.show()
     }
 
-    var selectedPhotoUri: Uri? = null
 
-    /*override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
+    val REQUEST_IMAGE_CAPTURE = 1
 
-        if (requestCode == 0 && resultCode == Activity.RESULT_OK && data != null){
-            Log.d(RegisterActivity.TAG, "Photo was selected")
-
-            selectedPhotoUri = data.data
-
-            val bitmap = MediaStore.Images.Media.getBitmap(contentResolver, selectedPhotoUri)
-
-            addImageView.setImageBitmap(bitmap)
-
-            addImageView.alpha = 0f
-            //        val bitmapDrawable = BitmapDrawable(bitmap)
-            //        select_photo_button.setBackgroundDrawable(bitmapDrawable)
-        }
-    }*/
+    private fun dispatchTakePictureIntent() {
+        val values = ContentValues()
+        values.put(MediaStore.Images.Media.TITLE, "New Picture")
+        values.put(MediaStore.Images.Media.DESCRIPTION, "From the Camera")
+        selectedPhotoUri = contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values)
+        //camera intent
+        val cameraIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+        cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, selectedPhotoUri)
+        startActivityForResult(cameraIntent, REQUEST_IMAGE_CAPTURE)
+    }
 
     private fun pickImageFromGallery() {
         //Intent to pick image
@@ -103,7 +99,6 @@ class UploadNewLocActivity : AppCompatActivity() {
     companion object {
         //image pick code
         private val IMAGE_PICK_CODE = 1000;
-        //Permission code
         private val PERMISSION_CODE = 1001;
     }
 
@@ -112,6 +107,9 @@ class UploadNewLocActivity : AppCompatActivity() {
         if (resultCode == Activity.RESULT_OK && requestCode == IMAGE_PICK_CODE){
             addImageView.setImageURI(data?.data)
             selectedPhotoUri = data?.data
+        }
+        if (resultCode == Activity.RESULT_OK && requestCode == REQUEST_IMAGE_CAPTURE){
+            addImageView.setImageURI(selectedPhotoUri)
         }
     }
 
@@ -141,6 +139,28 @@ class UploadNewLocActivity : AppCompatActivity() {
         val lat = latText.text.toString().trim()
         val long = longText.text.toString().trim()
         val description = descriptionText.text.toString().trim()
+
+        if (name.isEmpty()){                                            // error checking - checks that enterNameText is not empty
+            nameText.error = ("Please enter a name")
+            return
+        }
+        if (country.isEmpty()){
+            countryText.error = ("Please enter a country")         // error checking - checks that enterCalorieText is not empty
+            return
+        }
+        if (lat.isEmpty()){
+            latText.error = ("Please enter a lat")         // error checking - checks that enterCalorieText is not empty
+            return
+        }
+        if (long.isEmpty()){
+            longText.error = ("Please enter a long")         // error checking - checks that enterCalorieText is not empty
+            return
+        }
+        if (description.isEmpty()){
+            descriptionText.error = ("Please enter a description")         // error checking - checks that enterCalorieText is not empty
+            return
+        }
+
         val location = Location(id, name, country, lat, long, locationImageUrl, description)
         saveToRef.child(name).setValue(location).addOnCompleteListener{
             Toast.makeText(applicationContext, "Location added successfully", Toast.LENGTH_LONG).show()

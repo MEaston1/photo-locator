@@ -55,7 +55,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
         descriptionText.setMovementMethod(ScrollingMovementMethod())
 
-        ref = FirebaseDatabase.getInstance().getReference("Locations/3")
+        ref = FirebaseDatabase.getInstance().getReference("Locations/Eiffel Tower")
 
         ref.addValueEventListener(object: ValueEventListener {
             override fun onDataChange(snapShot: DataSnapshot) {
@@ -95,9 +95,8 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         val coord = LatLng(long.toDouble(), lat.toDouble())
 
         mMap.addMarker(MarkerOptions().position(coord).title("Marker at " + nameText.text))
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(coord, 16.0f))
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(coord, 5.0f))
     }
-
 
     private fun saveData(){
         val saveToRef = FirebaseDatabase.getInstance().getReference("Locations")
