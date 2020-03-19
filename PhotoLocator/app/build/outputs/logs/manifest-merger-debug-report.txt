@@ -1,10 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
 MERGED from [androidx.mediarouter:mediarouter:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\fd93beec4424d2e5b7afbaa36c16a718\mediarouter-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8858e46cd40a2df6e28979235d3881e0\material-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cffcb14bc50954fa646513b4be989c6b\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cbfd1da392fc44c7c6ee9702ee1d6544\jetified-core-ktx-1.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dc5653df51271f52f93d2006d9a5e208\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
@@ -15,8 +16,6 @@ MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\adame\.gradle
 MERGED from [com.google.firebase:firebase-database:19.2.1] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\58edd6195b06772a93c30dd3011542f9\jetified-firebase-database-19.2.1\AndroidManifest.xml:15:1-38:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c3d3dbc878f96de1821069d6d0865926\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\5b9e0d961a43463cd36d3d0b0970a663\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\36396b1fbdb1103bb32efd2dde513e3d\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f029e5fde7f0c8eec949bd3577990a9f\jetified-play-services-measurement-api-17.2.2\AndroidManifest.xml:17:1-36:12
@@ -34,26 +33,27 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\adame\.
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\62e1aceb810494d328f2d3c294a941d8\jetified-firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0b6a45aeafe8e107601498ac99bac427\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\6e168249229157f99432178f85bb90f9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f754c370439a55797b83244b8949e1f1\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\4d8023f440c56671264c8dbdb102bee1\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\62322ffe89d73f1df797536e80d541cb\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\a77d9e58918bf2750030aac69a1dfcf6\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.media:media:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f3099749518a16479c5918b252d0a3c6\media-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e0c975c384abcc61ccba51309aa86cce\palette-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\37c52e97a4a4aed04f3f94a1dff4c12b\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\7e96a2bbb30f69a0e44802ac74b7a4f6\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\9c082bcf1e9f4f8b85c88ff0468da4d5\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be19bec525e29f89b7d3e89508f45a37\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dccbc333189bbf941b741953e1a3f9ff\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c478f80bd4ad567536aefc8101976968\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\81dab606d6381131d30445e6b293ca11\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\6d4496b2f19da8b1ecaba0e3e9d542c0\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\9c082bcf1e9f4f8b85c88ff0468da4d5\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be19bec525e29f89b7d3e89508f45a37\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\339f1dc8c1bde9b456157112e0f4b7e8\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\21084036f77004bec3de64060098e600\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c998af1e25efef1fa5f058015aa4c0ba\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0b07a0826db5af8a2fda1f92fd2e3873\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b26138f390284d58f90b88610f6f34c1\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b418af96d99ec3ee6beea4913d2436ab\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\509b9013c19d2fd80c30f8ef574e433a\core-1.2.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0a265440987cc4e75053c9445cd2e39a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\64ca07abbcbc78186ca1b999f5a5335a\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\ace58725a593ebc3d8ac9a955443d5c1\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8b0350031a72ce16202033f17dd471e1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e4bd9b193777687523303943a4029054\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\a0ace06f047d4842a6f5373e82da3162\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\aa1d5930a25664aa7646c6cfc994bd91\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
@@ -65,20 +65,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\adame\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\308c366dec3536d2c325d08e36113e5e\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b7f5752aa0acc6fff842c787e096bc60\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f0a023290e2c6b637251f36ff536ead9\jetified-firebase-database-collection-17.0.0\AndroidManifest.xml:2:1-7:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:1-52:12
 		INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:2:11-69
@@ -87,7 +87,9 @@ ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-l
 	android:name
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:10:22-76
 application
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:12:5-51:19
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:12:5-50:19
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8858e46cd40a2df6e28979235d3881e0\material-1.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8858e46cd40a2df6e28979235d3881e0\material-1.1.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dc5653df51271f52f93d2006d9a5e208\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dc5653df51271f52f93d2006d9a5e208\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\120a2803b9658a349f5d78aac0aa3bfb\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
@@ -158,44 +160,44 @@ ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-l
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:30:13-52
 	android:name
 		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:29:13-58
-activity#com.apps.photolocator.MapsActivity
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:32:9-34:68
-	android:label
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:34:13-56
-	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.apps.photolocator.MainActivity
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:35:9-41:20
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:35:19-47
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:32:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:39:17-77
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:39:27-74
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:36:27-74
 activity#com.apps.photolocator.registerlogin.LoginActivity
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:42:9-65
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:39:9-65
 	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:42:19-62
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:39:19-62
 activity#com.apps.photolocator.registerlogin.RegisterActivity
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:43:9-49:20
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:9-46:20
 	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:43:19-65
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:40:19-65
+activity#com.apps.photolocator.MapsActivity
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:48:9-50
+	android:name
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:48:19-47
 activity#com.apps.photolocator.SettingsActivity
-ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:50:9-54
+ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:49:9-54
 	android:name
-		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:50:19-51
+		ADDED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml:49:19-51
 uses-sdk
 INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 INJECTED from D:\adame\Documents\Uni\#Final Year\Mobile Apps\AppsAssignment\photo-locator\PhotoLocator\app\src\main\AndroidManifest.xml
 MERGED from [androidx.mediarouter:mediarouter:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\fd93beec4424d2e5b7afbaa36c16a718\mediarouter-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.mediarouter:mediarouter:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\fd93beec4424d2e5b7afbaa36c16a718\mediarouter-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8858e46cd40a2df6e28979235d3881e0\material-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8858e46cd40a2df6e28979235d3881e0\material-1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cffcb14bc50954fa646513b4be989c6b\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cffcb14bc50954fa646513b4be989c6b\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\cbfd1da392fc44c7c6ee9702ee1d6544\jetified-core-ktx-1.2.0\AndroidManifest.xml:5:5-7:41
@@ -216,10 +218,6 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\548a76d145de71a346a40cd0355163ab\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be7796652c97351ca036a12e902608f1\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c3d3dbc878f96de1821069d6d0865926\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c3d3dbc878f96de1821069d6d0865926\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\5b9e0d961a43463cd36d3d0b0970a663\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\5b9e0d961a43463cd36d3d0b0970a663\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\36396b1fbdb1103bb32efd2dde513e3d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\36396b1fbdb1103bb32efd2dde513e3d\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.2.2] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\2f5455671deb6a86b903f2b1caf1ce12\jetified-play-services-measurement-17.2.2\AndroidManifest.xml:20:5-44
@@ -254,6 +252,8 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0b6a45aeafe8e107601498ac99bac427\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\6e168249229157f99432178f85bb90f9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\6e168249229157f99432178f85bb90f9\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f754c370439a55797b83244b8949e1f1\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f754c370439a55797b83244b8949e1f1\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\4d8023f440c56671264c8dbdb102bee1\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\4d8023f440c56671264c8dbdb102bee1\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\62322ffe89d73f1df797536e80d541cb\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -264,6 +264,14 @@ MERGED from [androidx.media:media:1.1.0] C:\Users\adame\.gradle\caches\transform
 MERGED from [androidx.media:media:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\f3099749518a16479c5918b252d0a3c6\media-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e0c975c384abcc61ccba51309aa86cce\palette-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.palette:palette:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e0c975c384abcc61ccba51309aa86cce\palette-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\37c52e97a4a4aed04f3f94a1dff4c12b\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\37c52e97a4a4aed04f3f94a1dff4c12b\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\7e96a2bbb30f69a0e44802ac74b7a4f6\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\7e96a2bbb30f69a0e44802ac74b7a4f6\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\9c082bcf1e9f4f8b85c88ff0468da4d5\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\9c082bcf1e9f4f8b85c88ff0468da4d5\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be19bec525e29f89b7d3e89508f45a37\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be19bec525e29f89b7d3e89508f45a37\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dccbc333189bbf941b741953e1a3f9ff\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\dccbc333189bbf941b741953e1a3f9ff\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c478f80bd4ad567536aefc8101976968\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -272,20 +280,10 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\adame\.gradle\caches\transfo
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\81dab606d6381131d30445e6b293ca11\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\6d4496b2f19da8b1ecaba0e3e9d542c0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\6d4496b2f19da8b1ecaba0e3e9d542c0\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\9c082bcf1e9f4f8b85c88ff0468da4d5\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\9c082bcf1e9f4f8b85c88ff0468da4d5\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be19bec525e29f89b7d3e89508f45a37\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\be19bec525e29f89b7d3e89508f45a37\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\339f1dc8c1bde9b456157112e0f4b7e8\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\339f1dc8c1bde9b456157112e0f4b7e8\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\21084036f77004bec3de64060098e600\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\21084036f77004bec3de64060098e600\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c998af1e25efef1fa5f058015aa4c0ba\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\c998af1e25efef1fa5f058015aa4c0ba\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0b07a0826db5af8a2fda1f92fd2e3873\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0b07a0826db5af8a2fda1f92fd2e3873\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b26138f390284d58f90b88610f6f34c1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b26138f390284d58f90b88610f6f34c1\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b418af96d99ec3ee6beea4913d2436ab\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\b418af96d99ec3ee6beea4913d2436ab\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\509b9013c19d2fd80c30f8ef574e433a\core-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.2.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\509b9013c19d2fd80c30f8ef574e433a\core-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\0a265440987cc4e75053c9445cd2e39a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -294,6 +292,8 @@ MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\adame\.gra
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\64ca07abbcbc78186ca1b999f5a5335a\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\ace58725a593ebc3d8ac9a955443d5c1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\ace58725a593ebc3d8ac9a955443d5c1\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8b0350031a72ce16202033f17dd471e1\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\8b0350031a72ce16202033f17dd471e1\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e4bd9b193777687523303943a4029054\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\e4bd9b193777687523303943a4029054\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\adame\.gradle\caches\transforms-2\files-2.1\a0ace06f047d4842a6f5373e82da3162\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44

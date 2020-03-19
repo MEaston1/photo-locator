@@ -1,10 +1,12 @@
 package com.apps.photolocator
 
-import android.R.raw
+
+import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
 import com.apps.photolocator.models.Location
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -13,8 +15,10 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
+import com.google.android.material.navigation.NavigationView
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
+import kotlinx.android.synthetic.main.activity_maps.*
 
 
 class MapsActivity : BaseActivity(), OnMapReadyCallback {
@@ -24,6 +28,9 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
     lateinit var nameText: TextView                                //defines variables
     lateinit var countryText: TextView
     lateinit var locationImageView: ImageView
+
+    lateinit var navView: NavigationView
+    lateinit var toolbar: Toolbar
 
     var long = "10"
     var lat = "10"
@@ -37,6 +44,10 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
+
+        returnText.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))
+        }
 
         nameText = findViewById(R.id.nameText)
         countryText = findViewById(R.id.countryText)
@@ -68,24 +79,14 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
 
-
     }
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
         if (useDarkMode){
             mMap.setMapStyle(MapStyleOptions.loadRawResourceStyle(this, R.raw.map_dark_mode))
         }
-        
+
     }
     private fun updateMap() {
 

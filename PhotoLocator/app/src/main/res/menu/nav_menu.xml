@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:id="@+id/menu_sign_out"
-        android:title="Sign Out"
-        app:showAsAction="ifRoom"/>
+    <group>
+        <item
+            android:id="@+id/nav_images"
+            android:icon="@drawable/ic_images"
+            android:title="Images" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_maps"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_camera"
+            android:title="Camera" />
+    </group>
 
 
+    <item android:title="Account Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_signout"
+                android:title="Sign Out" />
+        </menu>
+    </item>
 </menu>
