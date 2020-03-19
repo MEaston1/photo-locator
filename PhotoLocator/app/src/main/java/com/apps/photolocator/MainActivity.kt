@@ -1,9 +1,7 @@
 package com.apps.photolocator
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
@@ -11,10 +9,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
-import androidx.fragment.app.Fragment
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_main.*
 import com.google.android.material.navigation.NavigationView
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -31,7 +27,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         verifyUserIsLoggedIn()
 
         toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
+        //setSupportActionBar(toolbar)
 
         drawerLayout = findViewById(R.id.drawer_layout)
         navView = findViewById(R.id.nav_view)
@@ -43,13 +39,6 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         toggle.syncState()
         navView.setNavigationItemSelectedListener(this)
 
-        /*mapButton.setOnClickListener{
-            startActivity(Intent(this, MapsActivity::class.java))
-        }
-        settingsButton.setOnClickListener{
-            startActivity(Intent(this, SettingsActivity::class.java))
-        }*/
-
     }
     private fun verifyUserIsLoggedIn(){
         val uid = FirebaseAuth.getInstance().uid
@@ -59,18 +48,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             startActivity(intent)
         }
     }
-    /*override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item?.itemId){
-            R.id.menu_sign_out -> {
-                FirebaseAuth.getInstance().signOut()
-                val intent = Intent(this, RegisterActivity::class.java)
-                intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
-                startActivity(intent)
-            }
-        }
 
-        return super.onOptionsItemSelected(item)
-    }*/
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.nav_menu, menu)
         return super.onCreateOptionsMenu(menu)
@@ -99,16 +77,6 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         }
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
-    }
-
-    val REQUEST_IMAGE_CAPTURE = 1
-
-    private fun dispatchTakePictureIntent() {
-        Intent(MediaStore.ACTION_IMAGE_CAPTURE).also { takePictureIntent ->
-            takePictureIntent.resolveActivity(packageManager)?.also {
-                startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE)
-            }
-        }
     }
 
 }

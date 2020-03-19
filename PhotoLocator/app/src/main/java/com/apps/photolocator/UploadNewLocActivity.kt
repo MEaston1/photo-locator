@@ -13,7 +13,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import com.apps.photolocator.models.Location
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.database.FirebaseDatabase
@@ -139,27 +138,29 @@ class UploadNewLocActivity : BaseActivity() {
         val lat = latText.text.toString().trim()
         val long = longText.text.toString().trim()
         val description = descriptionText.text.toString().trim()
+        var isEmpty = false
 
         if (name.isEmpty()){                                            // error checking - checks that enterNameText is not empty
             nameText.error = ("Please enter a name")
-            return
+            isEmpty = true
         }
         if (country.isEmpty()){
             countryText.error = ("Please enter a country")         // error checking - checks that enterCalorieText is not empty
-            return
+            isEmpty = true
         }
         if (lat.isEmpty()){
             latText.error = ("Please enter a lat")         // error checking - checks that enterCalorieText is not empty
-            return
+            isEmpty = true
         }
         if (long.isEmpty()){
             longText.error = ("Please enter a long")         // error checking - checks that enterCalorieText is not empty
-            return
+            isEmpty = true
         }
         if (description.isEmpty()){
             descriptionText.error = ("Please enter a description")         // error checking - checks that enterCalorieText is not empty
-            return
+            isEmpty = true
         }
+        if (isEmpty) return
 
         val location = Location(id, name, country, lat, long, locationImageUrl, description)
         saveToRef.child(name).setValue(location).addOnCompleteListener{
