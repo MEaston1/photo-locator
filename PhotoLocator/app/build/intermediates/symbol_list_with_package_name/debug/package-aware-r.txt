@@ -1788,6 +1788,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addImageView
 id adjust_height
 id adjust_width
 id alertTitle
@@ -1833,6 +1834,7 @@ id darkThemeSwitch
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
+id descriptionText
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1884,6 +1886,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id latText
 id left
 id light
 id line1
@@ -1892,6 +1895,7 @@ id listMode
 id list_item
 id locationImageView
 id login_button_login
+id longText
 id map
 id masked
 id media_actions
@@ -2184,6 +2188,7 @@ layout activity_login
 layout activity_main
 layout activity_maps
 layout activity_register
+layout activity_upload_new_loc
 layout content_main
 layout custom_dialog
 layout design_bottom_navigation_item

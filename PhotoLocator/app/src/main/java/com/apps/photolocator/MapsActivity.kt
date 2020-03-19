@@ -3,6 +3,7 @@ package com.apps.photolocator
 
 import android.content.Intent
 import android.os.Bundle
+import android.text.method.ScrollingMovementMethod
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -28,9 +29,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
     lateinit var nameText: TextView                                //defines variables
     lateinit var countryText: TextView
     lateinit var locationImageView: ImageView
-
-    lateinit var navView: NavigationView
-    lateinit var toolbar: Toolbar
+    lateinit var descriptionText: TextView
 
     var long = "10"
     var lat = "10"
@@ -52,8 +51,11 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         nameText = findViewById(R.id.nameText)
         countryText = findViewById(R.id.countryText)
         locationImageView = findViewById(R.id.locationImageView)
+        descriptionText = findViewById(R.id.descriptionText)
 
-        ref = FirebaseDatabase.getInstance().getReference("Locations/Eiffel Tower")
+        descriptionText.setMovementMethod(ScrollingMovementMethod())
+
+        ref = FirebaseDatabase.getInstance().getReference("Locations/3")
 
         ref.addValueEventListener(object: ValueEventListener {
             override fun onDataChange(snapShot: DataSnapshot) {
@@ -63,6 +65,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
                     countryText.text = location?.country
                     long = location?.long.toString()
                     lat = location?.lat.toString()
+                    descriptionText.text = location?.description
                     Picasso.get().load(location?.locationImageUrl).into(locationImageView)
                     updateMap()
                 }
@@ -71,8 +74,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
             }
         })
-
-        //saveData()
+        saveData()
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -100,12 +102,13 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
     private fun saveData(){
         val saveToRef = FirebaseDatabase.getInstance().getReference("Locations")
         val id = saveToRef.push().key!!
-        val name = "Eiffel Tower"
+        val name = "8"
         val country = "France"
         val lat = "2.2945"
         val long = "48.8584"
         val locationImageUrl = ""
-        val location = Location(id, name, country, lat, long, locationImageUrl)
+        val description = ""
+        val location = Location(id, name, country, lat, long, locationImageUrl, description)
         saveToRef.child(name).setValue(location).addOnCompleteListener{
             Toast.makeText(applicationContext, "Food added successfully", Toast.LENGTH_LONG).show()
         }
