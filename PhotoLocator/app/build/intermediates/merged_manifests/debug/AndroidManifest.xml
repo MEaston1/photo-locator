@@ -50,9 +50,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name="com.apps.photolocator.MapsActivity"
-            android:label="@string/title_activity_maps" />
         <activity android:name="com.apps.photolocator.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -68,6 +65,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.apps.photolocator.MapsActivity" />
         <activity android:name="com.apps.photolocator.SettingsActivity" />
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library

@@ -27,7 +27,7 @@ class SettingsActivity : BaseActivity() {
             toggleTheme(isChecked)                                                      //calls toggleTheme function passing true or false
         }
 
-        returnButton.setOnClickListener{
+        returnText.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))                       //opens MainActivity when clicked
         }
 
