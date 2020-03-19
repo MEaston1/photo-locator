@@ -6,8 +6,6 @@ import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
-import androidx.appcompat.widget.Toolbar
 import com.apps.photolocator.models.Location
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -16,7 +14,6 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MapStyleOptions
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.material.navigation.NavigationView
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_maps.*
@@ -34,7 +31,6 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
     var long = "10"
     var lat = "10"
     lateinit var ref: DatabaseReference
-    lateinit var saveToRef: DatabaseReference
 
     var useDarkMode = false
 
@@ -74,7 +70,6 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
             }
         })
-        saveData()
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
             .findFragmentById(R.id.map) as SupportMapFragment
@@ -98,18 +93,4 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(coord, 5.0f))
     }
 
-    private fun saveData(){
-        val saveToRef = FirebaseDatabase.getInstance().getReference("Locations")
-        val id = saveToRef.push().key!!
-        val name = "8"
-        val country = "France"
-        val lat = "2.2945"
-        val long = "48.8584"
-        val locationImageUrl = ""
-        val description = ""
-        val location = Location(id, name, country, lat, long, locationImageUrl, description)
-        saveToRef.child(name).setValue(location).addOnCompleteListener{
-            Toast.makeText(applicationContext, "Food added successfully", Toast.LENGTH_LONG).show()
-        }
-    }
 }
