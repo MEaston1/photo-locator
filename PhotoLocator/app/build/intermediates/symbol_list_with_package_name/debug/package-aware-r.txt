@@ -1881,6 +1881,7 @@ id icon_only
 id ifRoom
 id image
 id imageView
+id imageView_new_photo
 id info
 id invisible
 id italic
@@ -2014,6 +2015,7 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id recyclerview_newphoto
 id register_button_register
 id returnText
 id right
@@ -2189,6 +2191,7 @@ layout abc_tooltip
 layout activity_login
 layout activity_main
 layout activity_maps
+layout activity_new_photo
 layout activity_register
 layout activity_upload_new_loc
 layout content_main
@@ -2284,6 +2287,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_row_new_photo
 menu nav_menu
 mipmap ic_launcher
 mipmap ic_launcher_round

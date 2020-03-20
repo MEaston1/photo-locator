@@ -9,6 +9,7 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.material.navigation.NavigationView
@@ -57,6 +58,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_images -> {
+                startActivity(Intent(this, PhotoRecyclerActivity::class.java))
             }
             R.id.nav_maps -> {
                     startActivity(Intent(this, MapsActivity::class.java))
