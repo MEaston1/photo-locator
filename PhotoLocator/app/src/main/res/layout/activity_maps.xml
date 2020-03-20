@@ -30,6 +30,11 @@
                     android:layout_height="wrap_content"
                     android:text="Return"
                     android:textStyle="bold" />
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:icon="@drawable/ic_share_black_24dp"
+                    android:id="@+id/shareToOtherAppsButton"/>
 
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>

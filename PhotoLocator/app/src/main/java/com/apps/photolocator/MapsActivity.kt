@@ -7,6 +7,7 @@ import android.text.method.ScrollingMovementMethod
 import android.widget.ImageView
 import android.widget.TextView
 import com.apps.photolocator.models.Location
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -75,7 +76,14 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
-
+       // val location = intent.getParcelableExtra<Location>(PhotoRecyclerActivity.PHOTO_KEY)
+       // val ref = location.locationImageUrl
+      //  shareToOtherAppsButton.setOnClickListener{
+      //      val shareIntent = Intent(Intent.ACTION_SEND)
+      //      shareIntent.type = "text/plain"
+       //     shareIntent.putExtra(Intent.EXTRA_TEXT, ref)
+      //      startActivity(Intent.createChooser(shareIntent, "Share link using"))
+        //}
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
