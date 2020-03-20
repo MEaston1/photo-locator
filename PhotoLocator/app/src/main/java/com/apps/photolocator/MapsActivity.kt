@@ -28,7 +28,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
     lateinit var locationImageView: ImageView
     lateinit var descriptionText: TextView
 
-    var loc = "Eiffel Tower"
+    var loc = "-M2tvhea3bDb5ucMNbuK"
     var long = "10"
     var lat = "10"
     lateinit var ref: DatabaseReference
