@@ -1517,6 +1517,7 @@ drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_location_city_black_24dp
 drawable ic_maps
 drawable ic_media_pause_dark
 drawable ic_media_pause_light
@@ -2091,6 +2092,7 @@ id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textView
 id textView_new_name
 id text_input_end_icon
 id text_input_start_icon

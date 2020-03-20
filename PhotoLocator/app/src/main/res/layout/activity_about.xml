@@ -28,7 +28,7 @@
                     android:id="@+id/homeText"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:text="Return"
+                    android:text="Home"
                     android:textStyle="bold" />
 
             </LinearLayout>
