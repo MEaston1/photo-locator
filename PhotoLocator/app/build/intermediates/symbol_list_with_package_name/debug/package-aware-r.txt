@@ -1876,6 +1876,7 @@ id groups
 id hideable
 id home
 id homeAsUp
+id homeText
 id hybrid
 id icon
 id icon_group
@@ -2020,7 +2021,6 @@ id progress_horizontal
 id radio
 id recyclerview_newphoto
 id register_button_register
-id returnText
 id right
 id right_icon
 id right_side

@@ -1,7 +1,6 @@
 package com.apps.photolocator.photo
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
@@ -19,8 +18,7 @@ import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_new_photo.*
-import kotlinx.android.synthetic.main.activity_new_photo.returnText
-import kotlinx.android.synthetic.main.settings_activity.*
+import kotlinx.android.synthetic.main.activity_new_photo.homeText
 import kotlinx.android.synthetic.main.user_row_new_photo.view.*
 
 
@@ -35,7 +33,7 @@ class PhotoRecyclerActivity : BaseActivity() {
         verifyUserIsLoggedIn()
         fetchLocations()
 
-        returnText.setOnClickListener{
+        homeText.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))                       //opens MainActivity when clicked
         }
     }
