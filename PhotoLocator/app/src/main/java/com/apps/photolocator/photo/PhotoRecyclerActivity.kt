@@ -21,7 +21,6 @@ import kotlinx.android.synthetic.main.user_row_new_photo.view.*
 
 class PhotoRecyclerActivity : AppCompatActivity() {
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_photo)
