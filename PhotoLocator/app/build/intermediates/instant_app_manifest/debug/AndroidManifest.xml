@@ -42,6 +42,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.apps.photolocator.About" />
         <activity android:name="com.apps.photolocator.UploadNewLocActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -73,6 +74,7 @@
         <activity android:name="com.apps.photolocator.MapsActivity" />
         <activity android:name="com.apps.photolocator.SettingsActivity" />
         <activity android:name="com.apps.photolocator.photo.PhotoRecyclerActivity" />
+        <activity android:name="com.apps.photolocator.AboutActivity" />
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"

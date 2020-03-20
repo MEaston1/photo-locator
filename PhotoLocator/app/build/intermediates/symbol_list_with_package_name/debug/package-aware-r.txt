@@ -1472,6 +1472,7 @@ drawable ic_add_a_photo_black_24dp
 drawable ic_audiotrack_dark
 drawable ic_audiotrack_light
 drawable ic_backspace
+drawable ic_bookmark_black_24dp
 drawable ic_calendar_black_24dp
 drawable ic_camera
 drawable ic_checked_checkbox
@@ -1836,6 +1837,7 @@ id date_picker_actions
 id decor_content_parent
 id default_activity_button
 id descriptionText
+id description_text_about
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1984,11 +1986,12 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id nameText
-id nav_camera
+id nav_about
 id nav_images
 id nav_maps
 id nav_settings
 id nav_signout
+id nav_upload_location
 id nav_view
 id navigation_header_container
 id never
@@ -2098,6 +2101,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id title_text_about
 id toolbar
 id top
 id topPanel
@@ -2189,6 +2193,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_about
 layout activity_login
 layout activity_main
 layout activity_maps

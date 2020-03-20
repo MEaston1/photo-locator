@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import com.apps.photolocator.BaseActivity
+import com.apps.photolocator.MainActivity
 import com.apps.photolocator.MapsActivity
 import com.squareup.picasso.Picasso
 import com.xwray.groupie.GroupAdapter
@@ -17,19 +19,27 @@ import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_new_photo.*
+import kotlinx.android.synthetic.main.activity_new_photo.returnText
+import kotlinx.android.synthetic.main.settings_activity.*
 import kotlinx.android.synthetic.main.user_row_new_photo.view.*
 
 
-class PhotoRecyclerActivity : AppCompatActivity() {
+class PhotoRecyclerActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        darkMode()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_photo)
 
         supportActionBar?.title = "Select Image"
         verifyUserIsLoggedIn()
         fetchLocations()
+
+        returnText.setOnClickListener{
+            startActivity(Intent(this, MainActivity::class.java))                       //opens MainActivity when clicked
+        }
     }
+
     companion object{
         val PHOTO_KEY = "PHOTO_KEY"
     }
