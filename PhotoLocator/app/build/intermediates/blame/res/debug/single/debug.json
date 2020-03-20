@@ -128,6 +128,10 @@
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_maps.xml"
     },
     {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_city_black_24dp.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_location_city_black_24dp.xml"
+    },
+    {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
