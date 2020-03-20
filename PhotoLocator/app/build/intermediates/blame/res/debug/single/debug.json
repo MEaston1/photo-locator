@@ -1,146 +1,150 @@
 [
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_photo.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_new_photo.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\menu\\nav_menu.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_register.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bookmark_black_24dp.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_bookmark_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_about.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_photo_button.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\rounded_photo_button.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_maps.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_maps.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\nav_header.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_signout.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_signout.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_images.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_images.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_backspace.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_backspace.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\raw_map_dark_mode.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\raw\\map_dark_mode"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_maps.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_row_new_photo.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\user_row_new_photo.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_camera.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_photo.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_new_photo.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\menu\\nav_menu.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_settings.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_settings.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_edittext_register_login.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\rounded_edittext_register_login.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bookmark_black_24dp.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_bookmark_black_24dp.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_edittext_register_login.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\rounded_edittext_register_login.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_button.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\rounded_button.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_maps.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_maps.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_images.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_images.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_backspace.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_backspace.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_black_24dp.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_share_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_row_new_photo.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\user_row_new_photo.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_button.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\rounded_button.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_activity.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\settings_activity.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_activity.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\settings_activity.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_photo_button.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\rounded_photo_button.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_signout.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_signout.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_camera.xml"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\raw_map_dark_mode.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\raw\\map_dark_mode"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\nav_header.xml"
     },
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_main.xml.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     }
 ]

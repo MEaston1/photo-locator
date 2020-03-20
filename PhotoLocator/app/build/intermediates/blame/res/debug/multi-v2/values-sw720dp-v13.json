@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+            "outputFile": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\matth\\.gradle\\caches\\transforms-2\\files-2.1\\fd93beec4424d2e5b7afbaa36c16a718\\mediarouter-1.1.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\Matthew\\.gradle\\caches\\transforms-2\\files-2.1\\fd93beec4424d2e5b7afbaa36c16a718\\mediarouter-1.1.0\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

@@ -8,11 +8,7 @@
     <uses-sdk
         android:minSdkVersion="17"
         android:targetSdkVersion="29" />
-    <!--
-         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-         Google Maps Android API v2, but you must specify either coarse or fine
-         location permissions for the 'MyLocation' functionality.
-    -->
+
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <!-- Include required permissions for Google Maps API to run. -->
@@ -57,7 +53,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.apps.photolocator.registerlogin.LoginActivity" />
         <activity android:name="com.apps.photolocator.registerlogin.RegisterActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -67,6 +62,13 @@
         </activity>
         <activity android:name="com.apps.photolocator.MapsActivity" />
         <activity android:name="com.apps.photolocator.SettingsActivity" />
+        <activity android:name="com.apps.photolocator.photo.PhotoRecyclerActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"

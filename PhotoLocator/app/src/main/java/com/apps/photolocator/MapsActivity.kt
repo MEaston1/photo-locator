@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
 import com.apps.photolocator.models.Location
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -48,6 +49,8 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         returnText.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))
         }
+
+        val location = intent.getParcelableExtra<Location>(PhotoRecyclerActivity.PHOTO_KEY)
 
         nameText = findViewById(R.id.nameText)
         countryText = findViewById(R.id.countryText)
