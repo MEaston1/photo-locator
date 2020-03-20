@@ -19,6 +19,7 @@ import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.activity_new_photo.*
 import kotlinx.android.synthetic.main.user_row_new_photo.view.*
 
+
 class PhotoRecyclerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -87,7 +88,7 @@ class PhotoRecyclerActivity : AppCompatActivity() {
 
 class LocationItem(val location: Location): Item<GroupieViewHolder>() {
     override fun bind(viewHolder: GroupieViewHolder, position: Int) {
-
+        viewHolder.itemView.textView_new_name.text = location.name
         Picasso.get().load(location.locationImageUrl).into(viewHolder.itemView.imageView_new_photo)
     }
 

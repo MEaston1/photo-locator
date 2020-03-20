@@ -63,7 +63,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             R.id.nav_maps -> {
                     startActivity(Intent(this, MapsActivity::class.java))
             }
-            R.id.nav_camera -> {
+            R.id.nav_upload_location -> {
                 startActivity(Intent(this, UploadNewLocActivity::class.java))
             }
             R.id.nav_settings -> {
