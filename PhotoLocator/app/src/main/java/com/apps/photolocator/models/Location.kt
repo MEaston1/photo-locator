@@ -4,9 +4,9 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-class Location (val id: String, val name: String, val country: String, val lat: String, val long: String, val locationImageUrl: String) :
+class Location (val id: String, val name: String, val country: String, val lat: String, val long: String, val locationImageUrl: String, val descriptions: String) :
     Parcelable {
 
-    constructor(): this ("", "", "", "", "",""){
+    constructor(): this ("", "", "", "", "","", ""){
     }
 }

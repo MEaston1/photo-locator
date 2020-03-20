@@ -1,15 +1,19 @@
 [
     {
-        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
-        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\menu\\nav_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\menu_nav_menu.xml.flat",
+        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\menu\\nav_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
         "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
         "merged": "C:\\Users\\matth\\OneDrive\\Documents\\GitHub\\PhotoLocator\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_rounded_photo_button.xml.flat",
