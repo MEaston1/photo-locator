@@ -163,7 +163,7 @@ class UploadNewLocActivity : BaseActivity() {
         if (isEmpty) return
 
         val location = Location(id, name, country, lat, long, locationImageUrl, description)
-        saveToRef.child(name).setValue(location).addOnCompleteListener{
+        saveToRef.child(id).setValue(location).addOnCompleteListener{
             Toast.makeText(applicationContext, "Location added successfully", Toast.LENGTH_LONG).show()
         }
     }
