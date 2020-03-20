@@ -18,7 +18,6 @@ import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_maps.*
 
-
 class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
@@ -47,7 +46,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
 
-        returnText.setOnClickListener{
+        homeText.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))
         }
 

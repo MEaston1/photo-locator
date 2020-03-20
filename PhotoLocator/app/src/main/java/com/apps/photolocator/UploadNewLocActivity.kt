@@ -17,7 +17,7 @@ import com.apps.photolocator.models.Location
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
-import kotlinx.android.synthetic.main.activity_maps.returnText
+import kotlinx.android.synthetic.main.activity_maps.homeText
 import kotlinx.android.synthetic.main.activity_upload_new_loc.*
 import java.util.*
 
@@ -43,7 +43,7 @@ class UploadNewLocActivity : BaseActivity() {
         longText = findViewById(R.id.longText)
         descriptionText = findViewById(R.id.descriptionText)
 
-        returnText.setOnClickListener{
+        homeText.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))
         }
 
