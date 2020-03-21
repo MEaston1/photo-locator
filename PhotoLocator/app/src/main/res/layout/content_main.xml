@@ -28,6 +28,14 @@
                     android:text="Photo Locator"
                     android:textColor="#FFFFFF"
                     style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+
+                <Button
+                    android:id="@+id/notificationButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#42f551"
+                    android:text="Press for notification" />
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
 

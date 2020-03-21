@@ -1519,8 +1519,10 @@ drawable ic_group_expand_15
 drawable ic_images
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
+drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_launcher_round
 drawable ic_location_city_black_24dp
 drawable ic_maps
 drawable ic_media_pause_dark
@@ -2009,6 +2011,7 @@ id never
 id noScroll
 id none
 id normal
+id notificationButton
 id notification_background
 id notification_main_column
 id notification_main_column_container
