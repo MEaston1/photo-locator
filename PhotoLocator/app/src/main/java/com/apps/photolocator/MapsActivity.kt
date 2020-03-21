@@ -2,10 +2,16 @@ package com.apps.photolocator
 
 
 import android.content.Intent
+import android.graphics.Bitmap
+import android.graphics.drawable.BitmapDrawable
+import android.graphics.drawable.Drawable
+import android.net.Uri
 import android.os.Bundle
+import android.os.Environment
 import android.text.method.ScrollingMovementMethod
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 import com.apps.photolocator.models.Location
 import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -18,6 +24,9 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_maps.*
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
 
 
 class MapsActivity : BaseActivity(), OnMapReadyCallback {
@@ -76,15 +85,68 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
             .findFragmentById(R.id.map) as SupportMapFragment
         mapFragment.getMapAsync(this)
 
-       // val location = intent.getParcelableExtra<Location>(PhotoRecyclerActivity.PHOTO_KEY)
-       // val ref = location.locationImageUrl
-      //  shareToOtherAppsButton.setOnClickListener{
-      //      val shareIntent = Intent(Intent.ACTION_SEND)
-      //      shareIntent.type = "text/plain"
-       //     shareIntent.putExtra(Intent.EXTRA_TEXT, ref)
-      //      startActivity(Intent.createChooser(shareIntent, "Share link using"))
-        //}
+        val location = intent.getParcelableExtra<Location>(PhotoRecyclerActivity.PHOTO_KEY)                             // fetches location class
+        val ref = location.name
+        shareToOtherAppsButton.setOnClickListener{
+            val bmpUri = Uri.parse("android.resource://com.apps.photolocator/" +R.id.locationImageView)        // parsing uri from ImageView
+            bmpUri = path.toString()                                                                                    // turn the uri to a string
+            val shareIntent = Intent()                                                                                  // new intent
+            shareIntent.action = Intent.ACTION_SEND                                                                     //
+            shareIntent.putExtra(Intent.EXTRA_STREAM, bmpUri)
+            shareIntent.type = "image/*"                                                                                // self explanatory
+            shareIntent.putExtra(Intent.EXTRA_TEXT, ref)                                                                // adds location name to sharing
+            startActivity(Intent.createChooser(shareIntent, "Share Image"))
+        }
+
+        //These two functions below are my backup attempts
+
+        //  shareToOtherAppsButton.setOnClickListener{
+            //     Picasso.get().load(location?.locationImageUrl).into(locationImageView)
+            //      fun onBitmapLoaded(bitmap: Bitmap?, from: Picasso.LoadedFrom?) {
+                //           val shareIntent = Intent()
+                //          Uri path = Uri.parse()
+                //          shareIntent.action = Intent.ACTION_SEND
+                //          shareIntent.type = "image/*"
+                //          shareIntent.putExtra(Intent.EXTRA_STREAM, getLocalBitmapUri(bitmap?))
+                //      }
+            //   }
+
     }
+
+
+    // shareToOtherAppsButton.setOnClickListener{
+        //     Picasso.get().load(location?.locationImageUrl).into(locationImageView)
+        //     {
+            //         fun onBitmapLoaded(bitmap: Bitmap?, from: Picasso.LoadedFrom?) {
+                //             val i = Intent(Intent.ACTION_SEND)
+                //            val shareIntent = Intent()
+                //             shareIntent.type  = "image/*"
+                //            i.putExtra(Intent.EXTRA_STREAM, getLocalBitmapUri(bitmap))
+                //             ContextCompat.startActivity(Intent.createChooser(i, "Share Image"))
+                //        }
+
+            //        fun onBitmapFailed(errorDrawable: Drawable?) {}
+     //       fun onPrepareLoad(placeHolderDrawable: Drawable?) {}
+     //   })
+     // }
+    fun getLocalBitmapUri(bmp: Bitmap): Uri? {
+        var bmpUri: Uri? = null
+        try {
+            val file = File(
+                getExternalFilesDir(Environment.DIRECTORY_PICTURES),
+                "share_image_" + System.currentTimeMillis() + ".png"
+            )
+            val out = FileOutputStream(file)
+            bmp.compress(Bitmap.CompressFormat.PNG, 90, out)
+            out.close()
+            bmpUri = Uri.fromFile(file)
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+        return bmpUri
+    }
+
+
 
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
