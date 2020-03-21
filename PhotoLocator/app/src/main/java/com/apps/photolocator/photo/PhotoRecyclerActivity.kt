@@ -30,7 +30,6 @@ class PhotoRecyclerActivity : BaseActivity() {
         setContentView(R.layout.activity_new_photo)
 
         supportActionBar?.title = "Select Image"
-        verifyUserIsLoggedIn()
         fetchLocations()
 
         homeText.setOnClickListener{
@@ -67,14 +66,6 @@ class PhotoRecyclerActivity : BaseActivity() {
             }
 
         })
-    }
-    private fun verifyUserIsLoggedIn(){
-        val uid = FirebaseAuth.getInstance().uid
-        if (uid == null) {
-            val intent = Intent(this, RegisterActivity::class.java)
-            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
-            startActivity(intent)
-        }
     }
     override fun onOptionsItemSelected(item: MenuItem?): Boolean {
         when (item?.itemId) {
