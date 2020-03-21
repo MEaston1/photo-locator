@@ -1,10 +1,12 @@
 package com.apps.photolocator
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import android.widget.VideoView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
@@ -13,12 +15,14 @@ import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.material.navigation.NavigationView
+import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     lateinit var toolbar: Toolbar
     lateinit var drawerLayout: DrawerLayout
     lateinit var navView: NavigationView
+    lateinit var videoView: VideoView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         darkMode()
@@ -40,6 +44,14 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         toggle.syncState()
         navView.setNavigationItemSelectedListener(this)
 
+        videoView = findViewById(R.id.videoView)
+        val videoPath = "android.resource://" + packageName + "/" + R.raw.travel_world
+        val uri = Uri.parse(videoPath)
+        videoView.setVideoURI(uri)
+        videoView.start()
+        videoView.setOnCompletionListener {
+            videoView.start()
+        }
     }
     private fun verifyUserIsLoggedIn(){
         val uid = FirebaseAuth.getInstance().uid
