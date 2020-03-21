@@ -1431,8 +1431,12 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable arrow_shape
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_left
+drawable background_right
+drawable big_ben
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1515,8 +1519,10 @@ drawable ic_group_expand_15
 drawable ic_images
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
+drawable ic_launcher
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_launcher_round
 drawable ic_location_city_black_24dp
 drawable ic_maps
 drawable ic_media_pause_dark
@@ -1724,6 +1730,7 @@ drawable notify_panel_notification_icon_bg
 drawable rounded_button
 drawable rounded_edittext_register_login
 drawable rounded_photo_button
+drawable sydney_opera_house
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1799,11 +1806,15 @@ id all
 id already_have_an_acount_text_view
 id always
 id appBarLayout
+id arrowImage
 id async
 id auto
 id back_to_registration_text_view
+id background_right_image
+id background_right_image3
 id barrier
 id beginning
+id bigBen_image
 id blocking
 id bottom
 id buttonPanel
@@ -2000,6 +2011,7 @@ id never
 id noScroll
 id none
 id normal
+id notificationButton
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -2074,6 +2086,7 @@ id status_bar_latest_event_content
 id stretch
 id submenuarrow
 id submit_area
+id sydney_image
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2093,6 +2106,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
 id textView_new_name
 id text_input_end_icon
 id text_input_start_icon
@@ -2120,6 +2134,7 @@ id up
 id uploadButton
 id useLogo
 id username_edittext_register
+id videoView
 id view_offset_helper
 id visible
 id volume_item_container
@@ -2301,6 +2316,7 @@ mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw map_dark_mode
+raw travel_world
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
