@@ -4,6 +4,14 @@
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_shape.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\arrow_shape.xml"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_big_ben.jpg.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\big_ben.jpg"
+    },
+    {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
@@ -14,6 +22,10 @@
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_launcher_round.png.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v21\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header.xml.flat",
@@ -36,6 +48,10 @@
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bookmark_black_24dp.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_bookmark_black_24dp.xml"
+    },
+    {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_register.xml"
     },
@@ -50,6 +66,10 @@
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_right.jpg.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\background_right.jpg"
     },
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\raw_map_dark_mode.flat",
@@ -72,8 +92,20 @@
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_user_row_new_photo.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\user_row_new_photo.xml"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_photo.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\activity_new_photo.xml"
     },
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_signout.xml.flat",
@@ -88,8 +120,24 @@
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_sydney_opera_house.jpg.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\sydney_opera_house.jpg"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_background_left.jpg.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v24\\background_left.jpg"
+    },
+    {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_activity.xml.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\raw_travel_world.mp4.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\raw\\travel_world.mp4"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_launcher.png.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable-v21\\ic_launcher.png"
     },
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_images.xml.flat",
@@ -110,6 +158,10 @@
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_maps.xml.flat",
         "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_maps.xml"
+    },
+    {
+        "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_city_black_24dp.xml.flat",
+        "source": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\src\\main\\res\\drawable\\ic_location_city_black_24dp.xml"
     },
     {
         "merged": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

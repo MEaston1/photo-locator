@@ -18,7 +18,6 @@ import com.google.firebase.database.*
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_maps.*
 
-
 class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
@@ -28,6 +27,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
     lateinit var locationImageView: ImageView
     lateinit var descriptionText: TextView
 
+    var loc = "-M2tvhea3bDb5ucMNbuK"
     var long = "10"
     var lat = "10"
     lateinit var ref: DatabaseReference
@@ -40,7 +40,13 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_maps)
 
-        returnText.setOnClickListener{
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        val mapFragment = supportFragmentManager
+            .findFragmentById(R.id.map) as SupportMapFragment
+        mapFragment.getMapAsync(this)
+
+
+        homeText.setOnClickListener{
             startActivity(Intent(this, MainActivity::class.java))
         }
 
@@ -51,30 +57,30 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
         descriptionText.setMovementMethod(ScrollingMovementMethod())
 
-        ref = FirebaseDatabase.getInstance().getReference("Locations/Eiffel Tower")
+        val locationObj = intent.getParcelableExtra<Location>("PHOTO_KEY")
+        if (locationObj!=null){
+            loc = locationObj.id
+        }
 
-        ref.addValueEventListener(object: ValueEventListener {
-            override fun onDataChange(snapShot: DataSnapshot) {
-                if (snapShot!!.exists()) {
-                    val location = snapShot.getValue(Location::class.java)
-                    nameText.text = location?.name
-                    countryText.text = location?.country
-                    long = location?.long.toString()
-                    lat = location?.lat.toString()
-                    descriptionText.text = location?.description
-                    Picasso.get().load(location?.locationImageUrl).into(locationImageView)
-                    updateMap()
+            ref = FirebaseDatabase.getInstance().getReference("Locations/$loc")
+
+            ref.addValueEventListener(object: ValueEventListener {
+                override fun onDataChange(snapShot: DataSnapshot) {
+                    if (snapShot!!.exists()) {
+                        val location = snapShot.getValue(Location::class.java)
+                        nameText.text = location?.name
+                        countryText.text = location?.country
+                        long = location?.long.toString()
+                        lat = location?.lat.toString()
+                        descriptionText.text = location?.description
+                        Picasso.get().load(location?.locationImageUrl).into(locationImageView)
+                        updateMap()
+                    }
                 }
-            }
-            override fun onCancelled(p0: DatabaseError) {
+                override fun onCancelled(p0: DatabaseError) {
 
-            }
-        })
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        val mapFragment = supportFragmentManager
-            .findFragmentById(R.id.map) as SupportMapFragment
-        mapFragment.getMapAsync(this)
-
+                }
+            })
 
     }
 

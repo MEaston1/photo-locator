@@ -1,23 +1,42 @@
 package com.apps.photolocator
 
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.content.Context
 import android.content.Intent
+import android.graphics.BitmapFactory
+import android.graphics.Color
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
+import android.widget.VideoView
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.apps.photolocator.registerlogin.RegisterActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.material.navigation.NavigationView
+import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     lateinit var toolbar: Toolbar
     lateinit var drawerLayout: DrawerLayout
     lateinit var navView: NavigationView
+    lateinit var videoView: VideoView
+
+    lateinit var notificationManager: NotificationManager
+    lateinit var notificationChannel: NotificationChannel
+    lateinit var builder: Notification.Builder
+    private val channelId = "com.apps.photolocator"
+    private val description = "Test Notification"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         darkMode()
@@ -39,6 +58,20 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         toggle.syncState()
         navView.setNavigationItemSelectedListener(this)
 
+        notificationManager = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+
+        notificationButton.setOnClickListener{
+            notifications()
+        }
+
+        videoView = findViewById(R.id.videoView)
+        val videoPath = "android.resource://" + packageName + "/" + R.raw.travel_world
+        val uri = Uri.parse(videoPath)
+        videoView.setVideoURI(uri)
+        videoView.start()
+        videoView.setOnCompletionListener {
+            videoView.start()
+        }
     }
     private fun verifyUserIsLoggedIn(){
         val uid = FirebaseAuth.getInstance().uid
@@ -57,11 +90,12 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.nav_images -> {
+                startActivity(Intent(this, PhotoRecyclerActivity::class.java))
             }
             R.id.nav_maps -> {
                     startActivity(Intent(this, MapsActivity::class.java))
             }
-            R.id.nav_camera -> {
+            R.id.nav_upload_location -> {
                 startActivity(Intent(this, UploadNewLocActivity::class.java))
             }
             R.id.nav_settings -> {
@@ -74,9 +108,38 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)
             }
+            R.id.nav_about -> {
+                startActivity(Intent(this, AboutActivity::class.java))
+            }
         }
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
     }
 
+    fun notifications(){
+        val intent = Intent(this,MainActivity::class.java)
+        val pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            notificationChannel = NotificationChannel(channelId,description, NotificationManager.IMPORTANCE_HIGH)
+            notificationChannel.enableLights(true)
+            notificationChannel.lightColor = Color.GREEN
+            notificationChannel.enableVibration(false)
+            notificationManager.createNotificationChannel(notificationChannel)
+
+            builder = Notification.Builder(this, channelId)
+                .setContentTitle("CodeAndroid")
+                .setContentText("Test Notification")
+                .setSmallIcon(R.mipmap.ic_launcher_round)
+                .setLargeIcon(BitmapFactory.decodeResource(this.resources, R.drawable.ic_launcher))
+                .setContentIntent(pendingIntent)
+        } else {
+            builder = Notification.Builder(this)
+                .setContentTitle("CodeAndroid")
+                .setContentText("Test Notification")
+                .setSmallIcon(R.mipmap.ic_launcher_round)
+                .setLargeIcon(BitmapFactory.decodeResource(this.resources, R.drawable.ic_launcher))
+                .setContentIntent(pendingIntent)
+        }
+        notificationManager.notify(1234, builder.build())
+    }
 }
