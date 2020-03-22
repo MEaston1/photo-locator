@@ -14,6 +14,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
+import android.widget.TextView
 import android.widget.Toast
 import android.widget.VideoView
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -43,6 +44,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     private val description = "Test Notification"
 
     lateinit var navHeaderImageView: ImageView
+    lateinit var navHeaderUsername:TextView
 
     lateinit var ref: DatabaseReference
 
@@ -158,6 +160,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     fun getUser(){
         val headerView = navView.getHeaderView(0)
         navHeaderImageView = headerView.findViewById(R.id.navHeaderImageView)
+        navHeaderUsername = headerView.findViewById(R.id.navHeaderUsername)
         val currentUser = FirebaseAuth.getInstance().currentUser    // find user id from firebase
         val userUid = currentUser?.uid
         ref = FirebaseDatabase.getInstance().getReference("users/$userUid")
@@ -165,6 +168,7 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             override fun onDataChange(snapShot: DataSnapshot) {
                 val user = snapShot.getValue(User::class.java)
                 Picasso.get().load(user?.profileImageUrl).into(navHeaderImageView)
+                navHeaderUsername.text = user?.username
             }
             override fun onCancelled(p0: DatabaseError) {
             }
