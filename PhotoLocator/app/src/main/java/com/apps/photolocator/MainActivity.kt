@@ -21,8 +21,11 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.apps.photolocator.registerlogin.RegisterActivity
+import com.apps.photolocator.registerlogin.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.database.FirebaseDatabase
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -115,6 +118,16 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
     }
+
+    class UserItem(val user: User){
+        fun  getNavProfilePicture() {
+            val uid = FirebaseAuth.getInstance().uid ?: ""                                      // gets the current uid (uid of the person logged in)
+            val ref = FirebaseDatabase.getInstance().getReference("/users")
+            Picasso.get().load(user.profileImageUrl).into(R.id.nav_imageView)
+
+        }
+    }
+
 
     fun notifications(){
         val intent = Intent(this,MainActivity::class.java)
