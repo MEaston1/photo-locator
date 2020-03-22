@@ -2000,6 +2000,7 @@ id mtrl_picker_title_text
 id multiply
 id nameText
 id navHeaderImageView
+id navHeaderUsername
 id nav_about
 id nav_images
 id nav_maps

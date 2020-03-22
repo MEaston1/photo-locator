@@ -12,8 +12,8 @@
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/navHeaderImageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -25,6 +25,17 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/navHeaderUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="66dp"
+        android:text="Username"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/navHeaderImageView"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
