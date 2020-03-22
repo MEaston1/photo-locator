@@ -67,14 +67,14 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
             ref.addValueEventListener(object: ValueEventListener {
                 override fun onDataChange(snapShot: DataSnapshot) {
-                    if (snapShot!!.exists()) {
+                    if (snapShot.exists()) {
                         location = snapShot.getValue(Location::class.java)!!
-                        nameText.text = location?.name
-                        countryText.text = location?.country
-                        long = location?.long.toString()
-                        lat = location?.lat.toString()
-                        descriptionText.text = location?.description
-                        Picasso.get().load(location?.locationImageUrl).into(locationImageView)
+                        nameText.text = location.name
+                        countryText.text = location.country
+                        long = location.long.toString()
+                        lat = location.lat.toString()
+                        descriptionText.text = location.description
+                        Picasso.get().load(location.locationImageUrl).into(locationImageView)
                         updateMap()
                     }
                 }
@@ -83,12 +83,12 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
                 }
             })
 
-        var placeName = ""
-        var ref = ""
+        var placeName: String
+        var ref: String
         shareButton.setOnClickListener{
             if (locationObj!= null){
-                placeName = locationObj?.name.toString()
-                ref = locationObj?.locationImageUrl.toString()
+                placeName = locationObj.name.toString()
+                ref = locationObj.locationImageUrl.toString()
             } else {
                 placeName = location.name
                 ref = location.locationImageUrl
