@@ -1667,6 +1667,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_settings
+drawable ic_share_black_24dp
 drawable ic_signout
 drawable ic_unchecked_checkbox
 drawable ic_vol_mute
@@ -2062,6 +2063,7 @@ id select_dialog_listview
 id select_photo_button
 id select_photo_imageview_register
 id selected
+id shareToOtherAppsButton
 id shortcut
 id showCustom
 id showHome

@@ -7,6 +7,7 @@ import android.text.method.ScrollingMovementMethod
 import android.widget.ImageView
 import android.widget.TextView
 import com.apps.photolocator.models.Location
+import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -81,7 +82,17 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
                 }
             })
-
+        val location = intent.getParcelableExtra<Location>(PhotoRecyclerActivity.PHOTO_KEY)                             // fetches location class
+        val placeName = location.name
+        val ref = location.locationImageUrl
+        shareToOtherAppsButton.setOnClickListener{
+            val shareIntent = Intent()                                                                                  // new intent
+            shareIntent.action = Intent.ACTION_SEND                                                                     //
+            shareIntent.type = "text/plain*"                                                                                // self explanatory
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, placeName)
+            shareIntent.putExtra(Intent.EXTRA_TEXT, ref)                                                                // adds location name to sharing
+            startActivity(Intent.createChooser(shareIntent, "Share This Image"))
+        }
     }
 
     override fun onMapReady(googleMap: GoogleMap) {

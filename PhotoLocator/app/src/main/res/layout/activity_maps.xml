@@ -30,6 +30,12 @@
                     android:layout_height="wrap_content"
                     android:text="Home"
                     android:textStyle="bold" />
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/shareToOtherAppsButton"
+                    app:srcCompat="@drawable/ic_share_black_24dp"/>
+
 
             </LinearLayout>
         </androidx.appcompat.widget.Toolbar>
