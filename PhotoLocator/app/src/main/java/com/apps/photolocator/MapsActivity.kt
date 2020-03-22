@@ -22,6 +22,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
 
+    lateinit var location: Location
     lateinit var nameText: TextView                                //defines variables
     lateinit var countryText: TextView
     lateinit var locationImageView: ImageView
@@ -67,7 +68,7 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
             ref.addValueEventListener(object: ValueEventListener {
                 override fun onDataChange(snapShot: DataSnapshot) {
                     if (snapShot!!.exists()) {
-                        val location = snapShot.getValue(Location::class.java)
+                        location = snapShot.getValue(Location::class.java)!!
                         nameText.text = location?.name
                         countryText.text = location?.country
                         long = location?.long.toString()
@@ -82,6 +83,24 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
                 }
             })
 
+        var placeName = ""
+        var ref = ""
+        shareButton.setOnClickListener{
+            if (locationObj!= null){
+                placeName = locationObj?.name.toString()
+                ref = locationObj?.locationImageUrl.toString()
+            } else {
+                placeName = location.name
+                ref = location.locationImageUrl
+            }
+                val shareIntent = Intent()                                                                                  // new intent
+                shareIntent.action = Intent.ACTION_SEND                                                                     //
+                shareIntent.type = "text/plain*"                                                                                // self explanatory
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, placeName)
+                shareIntent.putExtra(Intent.EXTRA_TEXT, ref)                                                                // adds location name to sharing
+                startActivity(Intent.createChooser(shareIntent, "Share This Image"))
+
+        }
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
