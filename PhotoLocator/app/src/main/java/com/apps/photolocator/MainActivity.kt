@@ -13,6 +13,7 @@ import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.ImageView
 import android.widget.Toast
 import android.widget.VideoView
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -21,8 +22,11 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.apps.photolocator.photo.PhotoRecyclerActivity
 import com.apps.photolocator.registerlogin.RegisterActivity
+import com.apps.photolocator.registerlogin.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.android.material.navigation.NavigationView
+import com.google.firebase.database.*
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -37,6 +41,10 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
     lateinit var builder: Notification.Builder
     private val channelId = "com.apps.photolocator"
     private val description = "Test Notification"
+
+    lateinit var navHeaderImageView: ImageView
+
+    lateinit var ref: DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         darkMode()
@@ -64,14 +72,8 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
             notifications()
         }
 
-        videoView = findViewById(R.id.videoView)
-        val videoPath = "android.resource://" + packageName + "/" + R.raw.travel_world
-        val uri = Uri.parse(videoPath)
-        videoView.setVideoURI(uri)
-        videoView.start()
-        videoView.setOnCompletionListener {
-            videoView.start()
-        }
+        getUser()
+        displayVideo()
     }
     private fun verifyUserIsLoggedIn(){
         val uid = FirebaseAuth.getInstance().uid
@@ -116,6 +118,16 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         return true
     }
 
+    fun displayVideo(){
+        videoView = findViewById(R.id.videoView)
+        val videoPath = "android.resource://" + packageName + "/" + R.raw.travel_world
+        val uri = Uri.parse(videoPath)
+        videoView.setVideoURI(uri)
+        videoView.start()
+        videoView.setOnCompletionListener {
+            videoView.start()
+        }
+    }
     fun notifications(){
         val intent = Intent(this,MainActivity::class.java)
         val pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT)
@@ -142,4 +154,21 @@ class MainActivity : BaseActivity(), NavigationView.OnNavigationItemSelectedList
         }
         notificationManager.notify(1234, builder.build())
     }
+
+    fun getUser(){
+        val headerView = navView.getHeaderView(0)
+        navHeaderImageView = headerView.findViewById(R.id.navHeaderImageView)
+        val currentUser = FirebaseAuth.getInstance().currentUser    // find user id from firebase
+        val userUid = currentUser?.uid
+        ref = FirebaseDatabase.getInstance().getReference("users/$userUid")
+        ref.addValueEventListener(object: ValueEventListener {              //if the calorie data changes update the total value
+            override fun onDataChange(snapShot: DataSnapshot) {
+                val user = snapShot.getValue(User::class.java)
+                Picasso.get().load(user?.profileImageUrl).into(navHeaderImageView)
+            }
+            override fun onCancelled(p0: DatabaseError) {
+            }
+        })
+    }
+
 }

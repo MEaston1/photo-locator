@@ -1896,7 +1896,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id imageView_new_photo
 id info
 id invisible
@@ -2000,6 +1999,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
 id nameText
+id navHeaderImageView
 id nav_about
 id nav_images
 id nav_maps

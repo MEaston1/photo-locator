@@ -9,13 +9,13 @@
     android:paddingLeft="15dp"
     android:paddingBottom="15dp">
 
-    <ImageView
-        android:id="@+id/imageView"
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/navHeaderImageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/ic_location_city_black_24dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
