@@ -86,16 +86,15 @@ class MapsActivity : BaseActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
         val location = intent.getParcelableExtra<Location>(PhotoRecyclerActivity.PHOTO_KEY)                             // fetches location class
-        val ref = location.name
+        val placeName = location.name
+        val ref = location.locationImageUrl
         shareToOtherAppsButton.setOnClickListener{
-            val bmpUri = Uri.parse("android.resource://com.apps.photolocator/" +R.id.locationImageView)        // parsing uri from ImageView
-            bmpUri = path.toString()                                                                                    // turn the uri to a string
             val shareIntent = Intent()                                                                                  // new intent
             shareIntent.action = Intent.ACTION_SEND                                                                     //
-            shareIntent.putExtra(Intent.EXTRA_STREAM, bmpUri)
-            shareIntent.type = "image/*"                                                                                // self explanatory
+            shareIntent.type = "text/plain*"                                                                                // self explanatory
+            shareIntent.putExtra(Intent.EXTRA_SUBJECT, placeName)
             shareIntent.putExtra(Intent.EXTRA_TEXT, ref)                                                                // adds location name to sharing
-            startActivity(Intent.createChooser(shareIntent, "Share Image"))
+            startActivity(Intent.createChooser(shareIntent, "Share This Image"))
         }
 
         //These two functions below are my backup attempts

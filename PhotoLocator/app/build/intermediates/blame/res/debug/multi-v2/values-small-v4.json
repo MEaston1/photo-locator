@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\adame\\Documents\\Uni\\#Final Year\\Mobile Apps\\AppsAssignment\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "E:\\Matthew\\Documents\\Work\\Apps\\tutorial\\app\\photo-locator\\PhotoLocator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\adame\\.gradle\\caches\\transforms-2\\files-2.1\\8858e46cd40a2df6e28979235d3881e0\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Matthew\\.gradle\\caches\\transforms-2\\files-2.1\\8858e46cd40a2df6e28979235d3881e0\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
